@@ -5,7 +5,7 @@
 
 Welcome to the Code Tracker App, a fullstack custom themed application using ReactJS and Express. Users are able to create, edit, and delete todos.
 
-![Screenshot 2024-03-27 at 2 54 29 PM](https://github.com/GillianTrethewey/Code-Tracker-CRUD/assets/7611178/cfa61981-c5ae-4ef7-bc36-73826d81b54f)
+![Screenshot 2024-03-27 at 4 33 50 PM](https://github.com/GillianTrethewey/Code-Tracker-CRUD/assets/7611178/60c0e521-702a-43c2-8733-4932c523987b)
 
 
 ## Implementation
