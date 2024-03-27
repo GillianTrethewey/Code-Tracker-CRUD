@@ -1,0 +1,76 @@
+.tasklist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  flex: 1;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    margin: 1rem;
+    text-align: center;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    list-style: none;
+  
+
+    &-item {
+      display: flex;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__delete-btn {
+    font-size: 1.25rem;
+    border: none;
+    margin-right: 1rem;
+    color: rgb(51, 81, 120);
+
+    :hover {
+      cursor: pointer;
+      color: red;
+    }
+  }
+}
+
+
+
+.tasklist__list-item input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  cursor: pointer;
+  height: 20px; 
+  width: 20px; 
+  border: 2px solid rgb(51, 81, 120); 
+  border-radius: 4px; 
+  background-color: transparent; 
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+}
+
+.tasklist__list-item input[type="checkbox"]:checked::before {
+  /* Display a bluecheckmark when checked */
+  content: '\2714'; /* Unicode for checkmark */
+  font-size: 2rem; 
+  color: rgb(51, 81, 120);  
+  text-align: center;
+  line-height: 10px; 
+}

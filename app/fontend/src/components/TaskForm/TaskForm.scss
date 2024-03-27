@@ -1,0 +1,70 @@
+.taskform {
+  &__title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(51, 81, 120);
+    width: 30%;
+  }
+
+  &__inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__fields {
+    display: flex;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 1rem;
+    color: white;
+  }
+
+  &__action {
+    display: flex;
+    margin-left: 1rem;
+  }
+
+  &__input,
+  &__btn {
+    height: 40px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+  }
+
+  &__btn {
+    background-color: rgb(130,160,170);
+    border-color: rgb(130,160,170);
+    color: white;
+  }
+
+  &__checkbox {
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding-left: 1rem;
+
+    &::after {
+      background-color: rgb(55, 182, 255);
+    }
+  }
+}

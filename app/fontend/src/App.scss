@@ -1,0 +1,12 @@
+// src/App.scss
+@use './styles/partials/_global' as *;
+@use './styles/partials/typography' as *;
+  
+
+body {
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #f0f0f0;
+    font-weight: 300;
+}
+

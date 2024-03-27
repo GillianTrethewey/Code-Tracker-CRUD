@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Avenir";
+  src: local("Avenir"),
+    url("./assets/fonts/AvenirNextLTPro.woff2") format("woff2"),
+    url("./assets/fonts/AvenirNextLTPro.woff") format("woff"),
+    url("./assets/fonts/AvenirNextLTPro.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "AvenirDemi";
+  src: local("AvenirDemi"),
+    url("./assets/fonts/AvenirNextLTProDemi.woff2") format("woff2"),
+    url("./assets/fonts/AvenirNextLTProDemi.woff") format("woff"),
+    url("./assets/fonts/AvenirNextLTProDemi.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "AvenirBold";
+  src: local("AvenirBold"),
+    url("./assets/fonts/AvenirNextLTProBold.woff2") format("woff2"),
+    url("./assets/fonts/AvenirNextLTProBold.woff") format("woff"),
+    url("./assets/fonts/AvenirNextLTProBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+body {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: #f0f0f0;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 0;
+  border-collapse: collapse;
+}
