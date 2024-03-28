@@ -21,10 +21,9 @@ export const TaskList = ({ taskGroup, fetchData, setTaskGroup }) => {
         task.id === taskId ? { ...task, completed: !completed } : task
       );
       setTaskGroup(updatedTasks);
-        console.log("taskID is ", taskId);
-        console.log(typeof(taskId));
+
       // Send a PUT request to update the task status on the server
-      await axios.put(`http://localhost:8000/tasks/${taskId}`, {
+      await axios.put(`http://localhost:8000/tasks/${taskId}/completed`, {
         completed: !completed, //Toggle the completed status
       });
       // After updating, fetch the updated list of tasks
